@@ -60,5 +60,11 @@ public class Zadanie{
 		}else{
 			System.out.println("Wybrano zla figure");
 		}
+		while(!nic.equals("exit")){
+            		nic = sc.nextLine();
+           		if(!nic.equals("exit")){
+                		pd_b= pd_b+"\n"+nic;
+			}
+		}
 	}
 }
