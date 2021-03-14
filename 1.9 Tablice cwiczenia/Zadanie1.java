@@ -2,30 +2,24 @@ import java.util.Random;
 import java.io.File;
 import java.io.FileWriter;
 import java.util.Scanner;
-import java.io.FileNotFoundException; //Raportowanie błędów
+import java.io.FileNotFoundException;
 
 public class Zadanie1{
 	public static void main(String[] args){
 		try{
-			int[] pd = new int[10];
-			Random pd_losowa = new Random();
-			//zapełnienie tablicy pd
+			Scanner sc = new Scanner (new File("uczniowie.txt"));
+			int[] tab = new int[10];
+			Random losowa = new Random();
+			//zapełnienie tablicy
 			for(int i=0; i<10; i++) {
-				pd[i] = pd_losowa.nextInt(7)+0;
+				tab[i] = losowa.nextInt(6)+1;
 			}
-			//Wyświetlenie tablicy pd
-			for(int i=0; i<10; i++) {
-				System.out.print(pd[i]+" ");
-			}
-			Scanner sc = new Scanner (new File("uczniowie.txt"));//Przygotowanie do czytania danych z pliku
-			while(sc.hasNext()){
-				String s = sc.nextLine();
-				String[] a = new String[10];
-				for(int i=0; i<10; i++) {
-				System.out.println(a);
+				String [] uczen = new String[10];
+				for(int i=0; i<10; i++){
+					//wyswietlenie obydwu tablic
+					System.out.println(uczen[0]=sc.nextLine()+" "+tab[i]);
 				}
-			}
-		} catch(FileNotFoundException e){
+		}catch(FileNotFoundException e){
 			System.out.println("Plik nie istnieje: "+e.toString());
 		}
 	}
