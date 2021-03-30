@@ -8,15 +8,5 @@ class MojeDane{
 	this.imie = imie;
 	this.nazwisko = nazwisko;
 	this.klasa = klasa;
-	System.out.println(imie+" "+nazwisko+" "+klasa);
-	}
-
-	public void dane(){
-		System.out.println(imie+" "+nazwisko+" "+klasa);
-	}
-	
-	@Override
-	public String toString(){
-		return imie+" "+nazwisko+" "+klasa;
 	}
 }
