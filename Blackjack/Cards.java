@@ -1,27 +1,12 @@
+import java.util.Random;
+
 class Cards{
-    public enum Dane{
-        TWO (2),
-        THREE (3),
-        FOUR (4),
-        FIVE (5),
-        SIX (6),
-        SEVEN (7),
-        EIGHT (8),
-        NINE (9),
-        TEN (10),
-        JACK (10),
-        QUEEN (10),
-        KING (10),
-        ACE (11);
-
-        private int Numbers;
-
-        Dane(int Numbers){
-            this.Numbers = Numbers;
-        }
-
-        public int getNumbers{
-            return Numbers;
-        }
+    String cards[] = {"Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"};
+    Random r = new Random();
+    int rand = r.nextInt(13);
+    String drawnCard = cards[rand];
+    
+    public String getCard(){
+        return drawnCard;
     }
 }
