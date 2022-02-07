@@ -58,13 +58,12 @@ class Logic{
     }
 
     public String askContinue(){
-        System.out.println("Would you like another card? y or n");
+        System.out.println("Would you like another card? y/n");
         String cont = sc.nextLine();
         return cont;
     }
 
-    public int newCard(){
-        int score = 0;
+    public int newCard(int score){
         int playerPoints = score;
         int earnedPoints = Points(playerPoints);
         playerPoints += earnedPoints;
