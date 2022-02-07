@@ -57,13 +57,14 @@ class Logic{
         return dealerPoints;
     }
 
-    public int askContinue(){
+    public String askContinue(){
         System.out.println("Would you like another card? y or n");
-        int cont = sc.nextInt();
+        String cont = sc.nextLine();
         return cont;
     }
 
-    public int newCard(int score){
+    public int newCard(){
+        int score = 0;
         int playerPoints = score;
         int earnedPoints = Points(playerPoints);
         playerPoints += earnedPoints;
