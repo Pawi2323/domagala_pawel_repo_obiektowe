@@ -1,6 +1,14 @@
-public class Mercury implements PlanetsImpl{
+public class Mercury extends Planet implements PlanetsImpl{
+    public Mercury(){
+        setPlanetLife(false);
+        setPlanetType(true);
+    }
     @Override
-    public void komunikat(){
-        System.out.println("Merkury nie posiada zycia");
+    public boolean isLife(){
+        return getPlanetLife();
+    }
+    @Override
+    public boolean planetType(){
+        return getPlanetType();
     }
 }

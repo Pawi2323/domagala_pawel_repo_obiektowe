@@ -1,6 +1,14 @@
-public class Jupiter implements PlanetsImpl{
+public class Jupiter extends Planet implements PlanetsImpl{
+    public Jupiter(){
+        setPlanetLife(false);
+        setPlanetType(false);
+    }
     @Override
-    public void komunikat(){
-        System.out.println("Jowisz nie posiada zycia");
+    public boolean isLife(){
+        return getPlanetLife();
+    }
+    @Override
+    public boolean planetType(){
+        return getPlanetType();
     }
 }

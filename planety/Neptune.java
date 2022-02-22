@@ -1,6 +1,14 @@
-public class Neptune implements PlanetsImpl{
+public class Neptune extends Planet implements PlanetsImpl{
+    public Neptune(){
+        setPlanetLife(false);
+        setPlanetType(false);
+    }
     @Override
-    public void komunikat(){
-        System.out.println("Neptun nie posiada zycia");
+    public boolean isLife(){
+        return getPlanetLife();
+    }
+    @Override
+    public boolean planetType(){
+        return getPlanetType();
     }
 }

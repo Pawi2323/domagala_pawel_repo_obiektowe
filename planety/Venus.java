@@ -1,6 +1,14 @@
-public class Venus implements PlanetsImpl{
+public class Venus extends Planet implements PlanetsImpl{
+    public Venus(){
+        setPlanetLife(false);
+        setPlanetType(true);
+    }
     @Override
-    public void komunikat(){
-        System.out.println("Venus nie posiada zycia");
+    public boolean isLife(){
+        return getPlanetLife();
+    }
+    @Override
+    public boolean planetType(){
+        return getPlanetType();
     }
 }

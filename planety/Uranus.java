@@ -1,6 +1,14 @@
-public class Uranus implements PlanetsImpl{
+public class Uranus extends Planet implements PlanetsImpl{
+    public Uranus(){
+        setPlanetLife(false);
+        setPlanetType(false);
+    }
     @Override
-    public void komunikat(){
-        System.out.println("Uran nie posiada zycia");
+    public boolean isLife(){
+        return getPlanetLife();
+    }
+    @Override
+    public boolean planetType(){
+        return getPlanetType();
     }
 }

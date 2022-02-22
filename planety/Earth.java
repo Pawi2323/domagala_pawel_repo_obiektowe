@@ -1,6 +1,14 @@
-public class Earth implements PlanetsImpl{
+public class Earth extends Planet implements PlanetsImpl{
+    public Earth(){
+        setPlanetLife(true);
+        setPlanetType(true);
+    }
     @Override
-    public void komunikat(){
-        System.out.println("Ziemia posiada zycie");
+    public boolean isLife(){
+        return getPlanetLife();
+    }
+    @Override
+    public boolean planetType(){
+        return getPlanetType();
     }
 }

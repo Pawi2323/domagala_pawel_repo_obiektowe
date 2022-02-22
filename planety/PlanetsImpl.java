@@ -1,3 +1,4 @@
 public interface PlanetsImpl{
-    void komunikat();
+    boolean isLife();
+    boolean planetType();
 }

@@ -1,6 +1,14 @@
-public class Mars implements PlanetsImpl{
+public class Mars extends Planet implements PlanetsImpl{
+    public Mars(){
+        setPlanetLife(false);
+        setPlanetType(true);
+    }
     @Override
-    public void komunikat(){
-        System.out.println("Mars nie posiada zycia");
+    public boolean isLife(){
+        return getPlanetLife();
+    }
+    @Override
+    public boolean planetType(){
+        return getPlanetType();
     }
 }
