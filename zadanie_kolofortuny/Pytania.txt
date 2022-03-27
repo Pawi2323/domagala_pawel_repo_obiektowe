@@ -1,0 +1,185 @@
+Gry;Latwe;
+Jaka firma produkuje gre FIFA?;b
+Rockstar Games
+EA Sports
+Ubisoft
+2K
+Gry;Latwe;
+Jaka firma wyprodukowała serie gier Wiedźmin?;c
+Team17
+Ubisoft
+CD Projekt Red
+Microsoft
+Gry;Latwe;
+Jaka jest najpopularniejsza gra na świecie?;d
+GTA V
+Among Us
+Fortnite: Battle Royale
+Minecraft
+Gry;Srednie;
+Minecraft: Jaki numer miała aktualizacja wodna?;c
+1.11
+1.12
+1.13
+1.14
+Gry;Srednie;
+W którym roku wydano Fortnite Battle Royale?;b
+2016
+2017
+2018
+2019
+Gry;Srednie;
+Among us: Ilu maksymalnie może być Impostorów?;b
+Dwóch
+Trzech
+Czterech
+Pięciu
+Gry;Trudne;
+Deckard Cain to postać pojawiająca sie w której z gier?;a
+Diablo
+Tomb Raider
+Warcraft
+Wiedźmin
+Gry;Trudne;
+Który Battlefield wyszedł pierwszy?;a
+Battlefield 1
+Battlefield 2042
+Battlefield 3
+Battlefield 4
+Który tytuł został grą roku 2021?;Trudne;
+Pytanie;b
+Resident Evil Village
+It Takes Two
+Ratchet & Clank: Rift Apart
+Metroid Dread
+
+Seriale;Łatwe; //tutaj jeszcze jedno
+Jaki numer miał głowyny bohater w serialu Squid Game?;b
+465
+456
+546
+564
+Seriale;Łatwe;
+Ile sezonów ma Dom z Papieru?;d
+2
+3
+4
+5
+Seriale;Łatwe;
+Pytanie;a
+Seriale;Średnie;
+W jakim mieście dzieje sie akcja w serialu Pingwiny z Madagasaru?;a
+Nowy Jork
+Los Angeles
+Miami
+Washington
+Seriale;Średnie;
+Od którego roku emitowany jest serial Świat według Kiepskich?;a
+1999
+2000
+2001
+2002
+Seriale;Średnie;
+W 1. sezonie „Stranger Things” znika dwójka bohaterów, kto?;d
+Mike i Barb
+Will i Dustin
+Will i Jedenastka
+Will i Barb
+Seriale;Trudne;
+W jakim oceanie dzieje sie akcja Spongebob Kanciastoporty?;a
+Ocean Spokojny
+Ocean Atlantycki
+Ocean Indyjski
+Ocean Arktyczny
+Seriale;Trudne;
+Agent Peña w serialu „Narcos” ma największą słabość do;c
+Alkoholu
+Piłki nożnej
+Pięknych kobiet
+Luksusowych samochodów
+Seriale;Trudne;
+Kogo przedstawiały maski w serialu Dom z Papier?;a
+Salvador Dali
+Rafael Santi
+Claude Monet
+René Magritte
+
+K2;T1; //Jezyki
+K2;T1;
+K2;T1;
+K2;T2;
+K2;T2;
+K2;T2;
+K2;T3;
+K2;T3;
+K2;T3;
+
+K3;T1; //Polski Hip-Hop
+K3;T1;
+K3;T1;
+K3;T2;
+K3;T2;
+K3;T2;
+K3;T3;
+K3;T3;
+K3;T3;
+
+K4;T1; //Programowanie
+K4;T1;
+K4;T1;
+K4;T2;
+K4;T2;
+K4;T2;
+K4;T3;
+K4;T3;
+K4;T3;
+
+K5;T1; //Geografia
+K5;T1;
+K5;T1;
+K5;T2;
+K5;T2;
+K5;T2;
+K5;T3;
+K5;T3;
+K5;T3;
+
+K6;T1; //Popkultura
+K6;T1;
+K6;T1;
+K6;T2;
+K6;T2;
+K6;T2;
+K6;T3;
+K6;T3;
+K6;T3;
+
+K7;T1; //Filmy
+K7;T1;
+K7;T1;
+K7;T2;
+K7;T2;
+K7;T2;
+K7;T3;
+K7;T3;
+K7;T3;
+
+K8;T1; //Astronomia
+K8;T1;
+K8;T1;
+K8;T2;
+K8;T2;
+K8;T2;
+K8;T3;
+K8;T3;
+K8;T3;
+
+K9;T1; //Wiedza Ogólna
+K9;T1;
+K9;T1;
+K9;T2;
+K9;T2;
+K9;T2;
+K9;T3;
+K9;T3;
+K9;T3;
